@@ -304,3 +304,18 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
+.achievents__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.achievents__container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.achievents__icon {
+  fill: #ff9a00;
+}
