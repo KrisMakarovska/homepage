@@ -254,16 +254,24 @@ body {
   color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
+.additional-info__education {
   margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
+.additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
-.additional-info__languages-item {
+.additional-info__education-item {
+  color: var(--primary-text-color);
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.additional-info__education__text {
+  font-size: 12px;
+  font-style: italic;
   color: var(--secondary-text-color);
 }
