@@ -23,7 +23,6 @@ body {
   max-width: 900px;
 }
 
-
 .fh {
   display: flex;
   flex-direction: row;
@@ -51,87 +50,86 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
   .main-info,
   .contact_info_container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .contact_info_container {
-      align-items: center;
+    align-items: center;
   }
 
   .contact-info__block:not(:last-child) {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   .experiences {
-      margin-right: 0;
+    margin-right: 0;
   }
 }
 
 /* Contact info */
 .contact-info__header,
 .contact-info__sub-header {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-info__header {
-    color: var(--primary-text-color);
-    margin-bottom: 15px;
-    text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
+  color: var(--primary-text-color);
+  margin-bottom: 15px;
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
-    color: var(--secondary-text-color);
-    margin-bottom: 30px;
+  color: var(--secondary-text-color);
+  margin-bottom: 30px;
 }
 
 .contact-info__block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact-info__block--center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .contact-info__item {
-    color: var(--secondary-text-color);
-    text-decoration: none;
-    display: flex;
-    justify-content: start;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
 }
 
 .contact-info__item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-info__item-icon-wrapper {
-    margin-right: 10px;
-    width: 20px;
-    display: flex;
-    justify-content: center;
+  margin-right: 10px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-info__item-icon path {
-    fill: var(--icon-color);
+  fill: var(--icon-color);
 }
 
 .contact-info__item-icon {
-    height: 1.1428rem;
-    vertical-align: text-bottom;
+  height: 1.1428rem;
+  vertical-align: text-bottom;
 }
 
 .contact-info__avatar {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid;
-    border-color: var(--text-decoration-color);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid;
+  border-color: var(--text-decoration-color);
 }
 
 /* Intro and skills */
@@ -274,4 +272,35 @@ body {
   font-size: 12px;
   font-style: italic;
   color: var(--secondary-text-color);
+}
+
+.projects__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.projects__details {
+  margin-bottom: 20px;
+}
+
+.projects__description {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
+}
+
+.projects__technologies {
+  color: var(--secondary-text-color);
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.projects__links {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.projects__demo-link {
+  cursor: pointer;
+  text-decoration: none;
 }
