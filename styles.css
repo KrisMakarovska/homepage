@@ -168,6 +168,7 @@ body {
 }
 
 .skills__text {
+  list-style-type: none;
   color: var(--secondary-text-color);
   text-align: justify;
 }
